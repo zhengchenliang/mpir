@@ -1,3 +1,19 @@
+Forked from wbhart/mpir
+
+Install:
+  source autogen.sh # replacing the automake commands: aclocal; autoheader; libtoolize --automake --copy --force; automake; autoconf; # as well as its asm part
+  source configure.yasm # = ./configure # -> Makefile
+  make # system-independent debug starts here
+  make check # build check
+  make install
+  make uninstall
+
+Manual:
+  mpir-man-3.0.0.pdf
+ 
+--- original README.md ---
+
+
 Copyright 1991, 1996, 1999, 2000 Free Software Foundation, Inc.
 
 Copyright 2008, 2009 William Hart
